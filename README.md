@@ -1,8 +1,8 @@
 # Commertize Agents — Agent Skill
 
 An agent skill for **Commertize Agents**: it teaches an AI agent to read Commertize's
-public marketplace of tokenized real-world assets — live offerings and their public
-terms, SPV leverage disclosure, and published market commentary — through the public,
+public listings feed (informational only): tokenized real-world asset listings, their
+public terms, SPV leverage disclosure, and published commentary. It reads them through the public,
 unauthenticated API at `https://api.commertize.com`.
 
 The skill is read-only. It needs no key, no account and no registration, and nothing in
@@ -23,7 +23,7 @@ commertize/
 ├── SKILL.md                     # the skill: endpoints, field meanings, rules for agents
 └── references/
     ├── api-reference.md         # endpoint-by-endpoint reference
-    ├── data-model.md            # enumerations, tokenomics fields, leverage derivation
+    ├── data-model.md            # enumerations, token terms fields, leverage derivation
     └── mcp-server.md            # the same surface as typed MCP tools
 ```
 
@@ -34,7 +34,7 @@ Commertize Agents MCP server: https://github.com/Commertize-Inc/mcp-server
 
 Nothing in this repository, or returned by the API it describes, is an offer, a
 solicitation, or a recommendation to buy or sell any security. It is not investment,
-legal, or tax advice.
+legal, or tax advice. Features marked testnet are not live.
 
 ## License
 
