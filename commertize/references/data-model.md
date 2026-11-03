@@ -33,7 +33,7 @@ Only `ACTIVE`, `FULLY_FUNDED`, and `TOKENIZING` appear in the public list respon
 `HOSPITALITY`, `DATA_CENTERS`, `SELF_STORAGE`, `HEALTHCARE`, `STUDENT_HOUSING`,
 `SENIOR_LIVING`, `AGRICULTURAL`, `PARKING`, `OTHER`.
 
-## Tokenomics
+## Token terms (`tokenomics` field: per-asset token terms; not a Commertize token)
 
 | Field | Meaning |
 |---|---|

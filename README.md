@@ -23,7 +23,7 @@ commertize/
 ├── SKILL.md                     # the skill: endpoints, field meanings, rules for agents
 └── references/
     ├── api-reference.md         # endpoint-by-endpoint reference
-    ├── data-model.md            # enumerations, listing token fields, leverage derivation
+    ├── data-model.md            # enumerations, token terms fields, leverage derivation
     └── mcp-server.md            # the same surface as typed MCP tools
 ```
 
@@ -34,10 +34,8 @@ Commertize Agents MCP server: https://github.com/Commertize-Inc/mcp-server
 
 Nothing in this repository, or returned by the API it describes, is an offer, a
 solicitation, or a recommendation to buy or sell any security. It is not investment,
-legal, or tax advice.
+legal, or tax advice. Features marked testnet are not live.
 
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
-
-Informational only. Not an offer to sell or a solicitation to buy any security. Features marked testnet are not live.

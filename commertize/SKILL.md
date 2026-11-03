@@ -1,6 +1,6 @@
 ---
 name: commertize
-description: Read the Commertize marketplace of tokenized real-world assets — list live offerings and their public terms (asset class, location, status, exemption, tokenomics, SPV leverage disclosure) and read published market commentary. Use for questions about what is listed on Commertize, how a specific Commertize offering is structured, or how the platform verifies investors and sponsors. Do NOT use for other tokenization platforms, for generic real-estate data, or to transact — nothing here can transact, and as the server ships it has no write tool at all.
+description: Read the Commertize public listings feed (informational only) of tokenized real-world assets: each listing and its public terms (asset class, location, status, exemption, token terms, SPV leverage disclosure) and read published commentary. Use for questions about what is listed on Commertize, how a specific Commertize offering is structured, or how the platform verifies investors and sponsors. Do NOT use for other tokenization platforms, for generic real-estate data, or to transact — nothing here can transact, and as the server ships it has no write tool at all.
 ---
 
 # Commertize
@@ -50,7 +50,7 @@ Returns the offerings in a publicly viewable status (`ACTIVE`, `FULLY_FUNDED`,
 | `status` | `ACTIVE` is the only status open for subscription. |
 | `offeringType` | Securities exemption: `RULE_506_B`, `RULE_506_C`, `REG_A`, `REG_CF`, `REG_S`. |
 | `sponsor` | `{ id, businessName }` — the issuer of that offering. |
-| `tokenomics` | `tokenPrice`, `totalTokenSupply`, `tokensForInvestors`, `tokensForSponsor`, `tokensForTreasury`, `minInvestmentTokens`, `maxInvestmentTokens`, `lockupMonths`. Fields may be absent. |
+| `tokenomics` (per-asset token terms; not a Commertize token) | `tokenPrice`, `totalTokenSupply`, `tokensForInvestors`, `tokensForSponsor`, `tokensForTreasury`, `minInvestmentTokens`, `maxInvestmentTokens`, `lockupMonths`. Fields may be absent. |
 | `financials` | Sponsor-supplied figures for the asset. Fields may be absent. |
 
 Derived values, computed the same way the platform computes them:
@@ -152,7 +152,7 @@ research.
 ## References
 
 - `references/api-reference.md`: endpoint-by-endpoint reference for the public surface
-- `references/data-model.md`: enumerations, tokenomics fields, and the leverage derivation
+- `references/data-model.md`: enumerations, token terms fields, and the leverage derivation
 - `references/mcp-server.md`: the same surface as MCP tools, with typed schemas
 
 ## Links
